@@ -49,6 +49,7 @@ const HotelList: React.FC = () => {
         setHotels(response.data);
       } catch (err) {
         setError("Failed to fetch hotels. Please try again later.");
+        console.log(err);
       }
     };
 

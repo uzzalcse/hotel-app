@@ -36,7 +36,7 @@ const ShareAndSave: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-2 px-10 max-w-4xl mx-auto">
+    <div className="flex justify-between items-center py-2 px-5 max-w-5xl mx-auto">
       {/* Back Link */}
       <div>
         <a href="#" className="text-blue-600 text-sm flex items-center">
